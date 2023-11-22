@@ -2,3 +2,8 @@ body {
     background-color: black;
     color: white;
 }
+
+.logo {
+    height: 18px;
+    width: 142px;
+}
