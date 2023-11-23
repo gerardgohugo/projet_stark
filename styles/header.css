@@ -1,8 +1,73 @@
+header{
+    display: grid;
+    grid-template-columns: 20% 20% 30% 20% 10%;
+    align-content: center;
+    align-items: center;
+    max-width: 100%;
+    padding: 30px 20px;
+    position: sticky;
+    background-color: black;
+    color: white;
+    font-family: 'Roboto', Helvetica, sans-serif;
+    font-size: 14px;
+    line-height: 26px;
+    text-transform: uppercase;
+}
+
+.logo{
+    display: flex;
+    align-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
 .logo img{
     width: 142px;
     height: 18px;
 }
 
+.navgauche{
+    align-items: center;
+}
+
+.navgauche ul{
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    align-items: center;
+}
+
+.navdroite{
+    align-items: center;
+}
+.navdroite ul{
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    align-items: center;
+}
+
+ul a{
+    color: white;
+    padding: 30px 20px;
+    text-decoration: none;
+}
+
+
+header .burger{
+    padding-left: 50%;
+    cursor: pointer;
+}
+header .burger span{
+	background: white;
+	width: 30px;
+	height:  1px;
+	display:  block;
+}
+
+header .burger span:not(:last-child) {
+	margin-bottom:  5px;
+}
 
 
 
