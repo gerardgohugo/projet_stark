@@ -113,13 +113,14 @@ header .burger span:not(:last-child) {
         flex-direction: row;
         align-content: space-evenly;
         justify-content: space-between;
-        height: 5vh;
-        width: 100%;
     }
     .navdroite{
         display: none;
     }
     .navgauche{
         display: none;
+    }
+    header .burger {
+        margin-left: auto;
     }
 }
