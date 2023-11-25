@@ -21,7 +21,8 @@ header{
     text-transform: uppercase;
 }
 
-header:hover {
+.opaque {
+    transition: background-color 0,3s ease;
     background-color: rgba(0, 0, 0, 0.31);
     backdrop-filter: blur(15px);
 }
