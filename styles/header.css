@@ -20,6 +20,10 @@ header{
     text-transform: uppercase;
 }
 
+header:hover {
+    background-color: rgba(0, 0, 0, 0.21);
+}
+
 .logo{
     display: flex;
     align-content: flex-start;
