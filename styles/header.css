@@ -10,7 +10,7 @@ header{
     align-content: center;
     align-items: center;
     max-width: 100%;
-    padding: 35px 30px;
+    padding: 30px 25px;
     position: sticky;
     top: 0;
     color: white;
@@ -113,7 +113,8 @@ header .burger span:not(:last-child) {
         flex-direction: row;
         align-content: space-evenly;
         justify-content: space-between;
-        height: 6vh;
+        height: 5vh;
+        width: 100%;
     }
     .navdroite{
         display: none;
