@@ -1,0 +1,20 @@
+/* CSS Fonts*/
+
+@font-face {
+    font-family: 'D-DIN';
+    font-style: normal;
+    src: url(D-DIN.woff2) format('woff2');
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'D-DIN';
+    font-style: normal;
+    font-weight: bold;
+    src: url(D-DIN-Bold.woff2) format('woff2');
+    font-display: swap;
+}
+
+body{
+    font-family: 'D-DIN';
+}
