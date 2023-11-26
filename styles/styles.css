@@ -1,5 +1,4 @@
 body {
-    display: flex;
     background-color: rgb(0, 0, 0);
     color: white;
     background-image:url(/img/background/background1.jpg);
@@ -7,14 +6,44 @@ body {
     background-position-x: 8%;
     background-position-y: center;
     background-attachment: fixed;
-    background-repeat: no-repeat; /* Évite la répétition de l'image */
+    background-repeat: no-repeat;
 }
 
+.hautdepage{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 90vh;
+    min-height: 600px;
+    margin-top: -100px;
+    text-align: center;
+    z-index: 1;
+}
 
+.hautdepage h1{
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.hautdepage h4 {
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.recherche{
+    position: absolute;
+    bottom: 25%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
 
 @media (max-width: 960px){
     body {
-        display: flex;
         background-color: rgb(0, 0, 0);
         color: white;
         background-image:url(/img/background/background1.jpg);
@@ -23,5 +52,10 @@ body {
         background-position-x: 50%;
         background-position-y: center;
         background-attachment: fixed;
+    }
+
+    .hautdepage{
+        height: 100%;
+        min-height: 80vh;
     }
 }
