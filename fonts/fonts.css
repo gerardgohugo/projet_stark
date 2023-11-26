@@ -16,5 +16,35 @@
 }
 
 main{
-    font-family: 'D-DIN';
+    font-family: 'D-DIN',Arial,Verdana,sans-serif;;
+}
+
+h1{
+    font-size: 72px;
+    text-transform: uppercase;
+    font-weight: bold;
+    line-height: 88px;
+    color: #FFFFFF;
+    padding: 5px 0px;
+    margin-bottom: 8px;
+}
+
+h2{
+    font-size: 40px;
+    text-transform: uppercase;
+    font-weight: bold;
+    line-height: 49px;
+    color: #FFFFFF;
+    padding: 5px 0px;
+    margin-bottom: 8px;
+}
+
+h3{
+    font-size: 28px;
+    text-transform: uppercase;
+    font-weight: bold;
+    line-height: 34px;
+    color: #FFFFFF;
+    padding: 5px 0px;
+    margin-bottom: 8px;
 }
