@@ -291,6 +291,7 @@ input[type="text"]::placeholder {
     height: 100%;
     object-fit: cover;
     max-width: 100%;
+    min-height: 940px;
 }
 
 .hconnect {
@@ -299,7 +300,18 @@ input[type="text"]::placeholder {
     z-index: 2;
     display: flex;
     flex-wrap: wrap;
-    
+    margin-left: 5vh;
+    margin-top: 15vh;
+}
+
+.pconnect {
+    grid-column: 1 / -2;
+    grid-row: 1 / -2;
+    z-index: 2;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 5vh;
+    margin-top: 40vh;
 }
 
 @media (max-width: 960px){
