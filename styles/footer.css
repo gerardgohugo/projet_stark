@@ -1,0 +1,124 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+footer {
+    background-color: #000000;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    flex-direction: row;
+    font-size: 12px;
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+}
+
+.footer-left{
+    display: flex;
+    flex-direction: column;
+
+}
+.footer-links{
+
+    padding-bottom: 20px;
+}
+.footer-links a{
+    text-decoration: none;
+    color: #fff;
+    font-size: small;
+    padding: 20px;
+    font-weight: 600;
+}
+.footer-left .footer-p{
+    text-align: left;
+    
+}
+.privacy-link {
+    text-decoration: none;
+    color: #fff;
+    font-weight: 600;
+}
+.footer-left .footer-p{
+    width: 72%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+.footer-right{
+    display: flex;
+    justify-content:space-between;
+}
+
+.signup-button{
+    background: none;
+    color: #fff;
+    border: none;
+    font-size: 10px;
+    font-weight: 600;
+}
+
+.email-input {
+    position: relative;
+}
+  
+.email-input input {
+    border: none;
+    border-bottom: 1px solid #ffffffba; 
+    background-color: #000000;
+    outline: none; 
+    padding: 5px; 
+    width: 250px;
+ 
+  }
+  
+.email-input input:focus {
+    border-bottom: 2px solid #fff; 
+    transition: border-bottom 0.7s ease; 
+}
+.privacy-text{
+    text-align: left;
+}
+.signup-text{
+    text-align: end;
+    margin-right: 20px;
+}
+
+@media only screen and (max-width: 768px) {
+    .footer-left,
+    .footer-right {
+        flex-basis: 100%;
+    }
+
+    .footer-links {
+        justify-content: center;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .footer-link {
+        margin: 5px 10px;
+        font-size: 10px;
+    }
+
+    .email-input {
+        width: 100%;
+    }
+
+    .signup-button {
+        margin-top: 10px;
+    }
+
+    .signup-info {
+        align-items: flex-start;
+        margin-left: 0;
+    }
+
+    .privacy-text {
+        font-size: 10px;
+    }
+}
