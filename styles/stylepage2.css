@@ -1,0 +1,120 @@
+/*style pour le main GENERAL*/
+
+@font-face {
+    font-family: 'typo-startlink'; 
+    font-style: bold;
+    src: url('/fonts/D-DIN-Bold.woff2') format('woff2');
+  }
+ @font-face {
+    font-family: 'typo-startlink'; 
+    font-style: normal;
+    src: url('/fonts/D-DIN.woff2') format('woff2');
+  }
+  
+  body {
+    font-family: 'typo-startlink', 'times'; 
+    background: black;
+    min-height: 100hv;
+
+    
+}
+
+main{
+    margin: 0;
+    color: white;
+    background: black cover/center;
+    padding: 40px;
+    width: 100%;
+}
+
+
+/*style pour*/
+
+.formulaire {
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+    justify-content: center;
+    gap: 40px;
+    background-color: rgba(89, 86, 86, 0.304);
+    padding: 20px 40px;  
+    height: 40%;
+
+}
+input{
+    background-color:rgba(89, 86, 86, 0.6) ;
+    border: solid wheat 2px;
+    border-radius: 6px;
+    width: 100% ;
+    height: 60px ;
+    color: white;
+}
+
+.deroulantglobal{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    /* grid-template-rows: 1fr 1fr;*/
+    gap: 10px;
+    padding: 30px 0 0 0;
+    /* height: 100%; */
+}
+
+main ul .deroulant {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 25px 20px;
+    gap: 20px;
+    justify-content: space-between;
+    background-color: rgba(89, 86, 86, 0.304);
+    border-radius: 5px;
+}
+
+.zonehautdroit{
+    margin: 0;
+    text-transform: uppercase;
+    font-family: typo-startlink;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.maj{
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 2px;
+
+}
+
+
+.grille {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 30% 60%;
+
+    grid-template-rows: 1fr 1fr;
+    gap: 40px 100px;
+    grid-template-areas: 
+        "form dero"
+        "vide zdtb";
+    justify-content: space-between;
+}
+
+.zonebas{
+    grid-area: zdtb;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    height: 100%;
+}
+
+.menuouvert{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-weight: bold;
+
+}
+
+.menuouvert ul{
+   line-height: 1.5em;
+}
